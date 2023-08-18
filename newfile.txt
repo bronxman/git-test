@@ -1,0 +1,101 @@
+To start a new project, what command should be used?;The command used to start a new project in Git is `git init` followed by the project name.
+
+Where is the newly created Git repository stored?;The newly created Git repository is stored in a `.git` folder within the working directory.
+
+How can the status of the repository be checked?;The status of the Git repository can be checked using the `git status` command.
+
+How can a file be added to the Git repository?;To add a file to the Git repository, you can use the command `git add <file>`.
+
+What command is used to create a commit with a commit message?;The command used to create a commit with a commit message is `git commit`.
+
+How is the commit message entered?;The commit message can be entered using a text editor, allowing for multiple lines of text.
+
+What command is used to view the commit history?;The command used to view the commit history is `git log`.
+
+How can a Git repository be deleted?;To delete a Git repository, you can use the command `rm -rf <repository>`.
+
+What is the purpose of ".gitignore" file?;The ".gitignore" file is used to track files and folders that should be ignored by Git.
+
+How can an unwanted file be deleted from a tracked Git repository?;To delete a tracked file, use Git's "rm" command, followed by the file name. The deletion needs to be committed to make it permanent.
+
+How can changes be undone in Git?;Use the "git reset HEAD" command followed by the file name to unstage a file. To discard changes and revert back to the last committed state of a file, use the "git checkout -- <file>" command.
+
+How can renamed files be tracked in Git?;The "--follow" option allows tracking the history of a renamed file.
+
+What are Git aliases and how can they be created?;Git aliases are shortcuts for commands. They can be created using the "git config --global" command and stored in the ".gitconfig" file in the user's home directory.
+
+What is the purpose of the staging area in Git?;The staging area is used to build up changes for a commit in Git.
+
+How can changes made in a local Git repository be synchronized back to GitHub?;To ensure the local repository is up-to-date, perform a 'git pull origin master' command. Then push the changes to GitHub using the 'git push origin master' command.
+
+What is the process for joining an existing project on GitHub?;Sign in to GitHub, fork the repository to create a personal copy, clone the repository to a local system using the HTTPS URL, verify the cloned repository, and check the status of the repository.- What is the purpose of ".gitignore" file?;The ".gitignore" file is used to track files and folders that should be ignored by Git.
+
+How can an unwanted file be deleted from a tracked Git repository?;To delete a tracked file, use Git's "rm" command, followed by the file name. The deletion needs to be committed to make it permanent.
+
+How can changes be undone in Git?;Use the "git reset HEAD" command followed by the file name to unstage a file. To discard changes and revert back to the last committed state of a file, use the "git checkout -- <file>" command.
+
+How can renamed files be tracked in Git?;The "--follow" option allows tracking the history of a renamed file.
+
+What are Git aliases and how can they be created?;Git aliases are shortcuts for commands. They can be created using the "git config --global" command and stored in the ".gitconfig" file in the user's home directory.
+
+What is the purpose of the staging area in Git?;The staging area is used to build up changes for a commit in Git.
+
+How can changes made in a local Git repository be synchronized back to GitHub?;To ensure the local repository is up-to-date, perform a 'git pull origin master' command. Then push the changes to GitHub using the 'git push origin master' command.
+
+What is the process for joining an existing project on GitHub?;Sign in to GitHub, fork the repository to create a personal copy, clone the repository to a local system using the HTTPS URL, verify the cloned repository, and check the status of the repository.
+
+What are some basic Git commands that can be used in a new project?;Some basic Git commands that can be used in a new project include `git init`, `git status`, `git add`, and `git commit`.
+
+What command can be used to view the changes made to a file?;The command used to view the changes made to a file is `git diff`.
+
+How can a specific commit be viewed in Git?;A specific commit can be viewed in Git using the `git show` command followed by the commit identifier.
+
+How can the commit history be customized in Git?;The commit history can be customized in Git using additional options like "--oneline", "--graph", and "--decorate".
+
+How can a file be removed from the staging area in Git?;To unstage a file in Git, use the "git reset HEAD" command followed by the file name.
+
+What is the difference between a tracked and an untracked file in Git?;A tracked file is any file that Git is aware of and actively tracking, while an untracked file is any file that Git is not yet aware of.<markdown>
+
+To start a new project, what command should be used?;The command used to start a new project in Git is `git init` followed by the project name.
+
+Where is the newly created Git repository stored?;The newly created Git repository is stored in a `.git` folder within the working directory.
+
+How can the status of the repository be checked?;The status of the Git repository can be checked using the `git status` command.
+
+How can a file be added to the Git repository?;To add a file to the Git repository, you can use the command `git add <file>`.
+
+What command is used to create a commit with a commit message?;The command used to create a commit with a commit message is `git commit`.
+
+How is the commit message entered?;The commit message can be entered using a text editor, allowing for multiple lines of text.
+
+What command is used to view the commit history?;The command used to view the commit history is `git log`.
+
+How can a Git repository be deleted?;To delete a Git repository, you can use the command `rm -rf <repository>`.
+
+What is the purpose of ".gitignore" file?;The ".gitignore" file is used to track files and folders that should be ignored by Git.
+
+How can an unwanted file be deleted from a tracked Git repository?;To delete a tracked file, use Git's "rm" command, followed by the file name. The deletion needs to be committed to make it permanent.
+
+How can changes be undone in Git?;Use the "git reset HEAD" command followed by the file name to unstage a file. To discard changes and revert back to the last committed state of a file, use the "git checkout -- <file>" command.
+
+How can renamed files be tracked in Git?;The "--follow" option allows tracking the history of a renamed file.
+
+What are Git aliases and how can they be created?;Git aliases are shortcuts for commands. They can be created using the "git config --global" command and stored in the ".gitconfig" file in the user's home directory.
+
+What is the purpose of the staging area in Git?;The staging area is used to build up changes for a commit in Git.
+
+How can changes made in a local Git repository be synchronized back to GitHub?;To ensure the local repository is up-to-date, perform a 'git pull origin master' command. Then push the changes to GitHub using the 'git push origin master' command.
+
+What is the process for joining an existing project on GitHub?;Sign in to GitHub, fork the repository to create a personal copy, clone the repository to a local system using the HTTPS URL, verify the cloned repository, and check the status of the repository.
+
+What are some basic Git commands that can be used in a new project?;Some basic Git commands that can be used in a new project include `git init`, `git status`, `git add`, and `git commit`.
+
+What command can be used to view the changes made to a file?;The command used to view the changes made to a file is `git diff`.
+
+How can a specific commit be viewed in Git?;A specific commit can be viewed in Git using the `git show` command followed by the commit identifier.
+
+How can the commit history be customized in Git?;The commit history can be customized in Git using additional options like "--oneline", "--graph", and "--decorate".
+
+How can a file be removed from the staging area in Git?;To unstage a file in Git, use the "git reset HEAD" command followed by the file name.
+
+What is the difference between a tracked and an untracked file in Git?;A tracked file is any file that Git is aware of and actively tracking, while an untracked file is any file that Git is not yet aware of.
