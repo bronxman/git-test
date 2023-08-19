@@ -22,6 +22,10 @@ How can changes be undone in Git?;Use the "git reset HEAD" command followed by t
 
 How can renamed files be tracked in Git?;The "--follow" option allows tracking the history of a renamed file.
 
+Going to add some simple text to this file.
+
+Now I'm going to add more text to this file.
+
 What are Git aliases and how can they be created?;Git aliases are shortcuts for commands. They can be created using the "git config --global" command and stored in the ".gitconfig" file in the user's home directory.
 
 What is the purpose of the staging area in Git?;The staging area is used to build up changes for a commit in Git.
