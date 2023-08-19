@@ -103,3 +103,5 @@ How can the commit history be customized in Git?;The commit history can be custo
 How can a file be removed from the staging area in Git?;To unstage a file in Git, use the "git reset HEAD" command followed by the file name.
 
 What is the difference between a tracked and an untracked file in Git?;A tracked file is any file that Git is aware of and actively tracking, while an untracked file is any file that Git is not yet aware of.
+
+this is a line that I'm adding to the end of the file.
